@@ -110,3 +110,5 @@ python3 run_demo.py
 python3 run_tests.py
 python3 poller.py
 ```
+Dashboard: https://contractrenewalvaluechecker-renewal-pric.vokrix.co
+Vercel: contractrenewalvaluechecker-renewal-pric
