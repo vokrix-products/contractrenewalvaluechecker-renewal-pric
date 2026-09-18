@@ -76,7 +76,7 @@ def insert_records(records, job):
 def insert_notification(product_id, customer_id, title, body, notif_type):
     try:
         requests.post(
-            "https://njyvnmczoydsaewvfhyq.supabase.co/rest/v1/notifications",
+            f"{SUPABASE_URL}/rest/v1/notifications",
             headers={**SB_HEADERS, "Content-Type": "application/json", "Prefer": "return=minimal"},
             json={
                 "product_id": product_id,
