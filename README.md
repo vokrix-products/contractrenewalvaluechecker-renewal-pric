@@ -113,3 +113,4 @@ python3 poller.py
 Dashboard: https://contractrenewalvaluechecker-renewal-pric.vokrix.co
 Vercel: contractrenewalvaluechecker-renewal-pric
 Railway: contractrenewalvaluechecker-renewal-pric
+Cloudflare: contractrenewalvaluechecker-renewal-pric.vokrix.co
