@@ -276,7 +276,9 @@ export function JobsCard() {
               ref={inputRef}
               type='file'
               multiple={MULTI_FILE}
-              className='hidden'
+              className='sr-only'
+              data-testid='file-input'
+              aria-label='Upload file'
               onChange={handleFileChange}
             />
             {error && <p className='text-sm text-destructive'>{error}</p>}
